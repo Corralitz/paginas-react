@@ -1,0 +1,29 @@
+.search-page-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-inline: min(8.5vw, 6rem);
+  margin-block: 2rem;
+}
+
+.container-barra-busqueda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  padding-inline: 4rem;
+}
+
+.barra-busqueda {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 16px;
+  box-shadow: 0 0 1px 1px #9f9f9f;
+  background: white url(../assets/search.svg) no-repeat scroll 12px 9px;
+}
+
+.barra-busqueda:focus {
+  box-shadow: 0 0 1px 2px #9f9f9f;
+}
